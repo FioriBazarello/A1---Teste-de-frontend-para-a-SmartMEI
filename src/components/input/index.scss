@@ -1,0 +1,23 @@
+.input-root {
+  display: flex;
+  flex-direction: column;
+
+  > label {
+    margin-bottom: 3px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  > input {
+    border-radius: 4px;
+    height: 20px;
+    padding: 2px 5px;
+  }
+}
+
+.input-error {
+  color: red;
+  margin: 0;
+  font-weight: 600;
+  font-size: 14px;
+}

@@ -1,0 +1,38 @@
+.job-modal-title {
+  margin-top: 0;
+
+  > h5 {
+    margin-top: 0;
+  }
+}
+
+.job-modal-description {
+  max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0 10px;
+    text-align: justify;
+}
+
+.subscribe-container {
+  > h2 {
+    margin: 0;
+  }
+
+  > p {
+    margin-top: 0;
+  }
+
+  .input-root {
+    margin-bottom: 10px;
+  }
+}
+
+.job-modal-footer {
+  display: flex;
+  justify-content: flex-end;
+
+  > button {
+    margin-left: 10px;
+  }
+}

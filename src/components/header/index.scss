@@ -1,0 +1,12 @@
+.header-root {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.header-root > h1 {
+  margin: 0;
+}

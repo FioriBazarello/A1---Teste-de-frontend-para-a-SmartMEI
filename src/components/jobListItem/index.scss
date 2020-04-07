@@ -1,0 +1,29 @@
+.job-list-item-root {
+  padding: 1em;
+  margin: 10px;
+  border: 1px solid black;
+  background: white;
+  border-radius: 4px;
+  max-width: 800px;
+
+  > h3, h5 {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}
+
+.job-list-item-description {
+  max-height: 206px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  text-align: justify;
+
+  background: linear-gradient(180deg, black 0%, black 50%, transparent 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  p {
+    margin: 0;
+  }
+}

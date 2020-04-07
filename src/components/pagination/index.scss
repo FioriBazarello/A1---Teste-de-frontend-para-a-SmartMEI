@@ -1,0 +1,14 @@
+.pagination-root {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1em;
+}
+
+.pagination-button {
+  margin-left: 10px;
+  background-color: white;
+
+  &.current {
+    background-color: #cccccc;
+  }
+}
