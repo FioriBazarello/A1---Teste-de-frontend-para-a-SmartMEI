@@ -1,32 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import { ApolloClient } from 'apollo-client';
-import { InMemoryCache } from 'apollo-cache-inmemory';
-import { HttpLink } from 'apollo-link-http';
-import { ApolloProvider } from '@apollo/react-hooks';
-
 import './index.css';
+
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-const cache = new InMemoryCache();
-const link = new HttpLink({
-  uri: 'https://api.graphql.jobs/',
-})
-
-const client = new ApolloClient({
-  cache,
-  link,
-})
-
 const AppComponent = () => {
   return (
-    <ApolloProvider client={client}>
-      <React.StrictMode>
-        <App />
-      </React.StrictMode>
-    </ApolloProvider>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
   );
 }
 
